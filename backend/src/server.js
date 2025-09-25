@@ -6,7 +6,7 @@ import MessRoutes from "./routes/message.route.js";
 import { connectDb } from "./lib/db.js";
 import cors from "cors";
 import {app,server} from "./lib/socket.js"
-
+import path from "path";
 
 dotenv.config();
 

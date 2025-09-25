@@ -1,0 +1,6 @@
+/* index.css */
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: all; /* enables all built-in themes */
+}
